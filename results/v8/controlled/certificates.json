@@ -1,0 +1,26 @@
+{
+  "Synth-A-uniform": {
+    "r1_roundtrip_equal": true,
+    "r2_roundtrip_equal": true,
+    "r3_roundtrip_equal": true,
+    "r2_unused_dimension_rows": 0,
+    "orig_tx_sha256": "8578196808ee97cd7f7c4125090987514284c46739db39337cbb533f1a9df91f",
+    "r1_tx_sha256": "8578196808ee97cd7f7c4125090987514284c46739db39337cbb533f1a9df91f",
+    "r2_tx_sha256": "8578196808ee97cd7f7c4125090987514284c46739db39337cbb533f1a9df91f",
+    "r3_tx_sha256": "8578196808ee97cd7f7c4125090987514284c46739db39337cbb533f1a9df91f",
+    "orig_merchants_sha256": "f959bed0fdf31f36277e605a68e1eb8f68db8812857da3a279633073ee30e1c7",
+    "r2_merchants_sha256": "f959bed0fdf31f36277e605a68e1eb8f68db8812857da3a279633073ee30e1c7"
+  },
+  "Synth-B-heavy-tail": {
+    "r1_roundtrip_equal": true,
+    "r2_roundtrip_equal": true,
+    "r3_roundtrip_equal": true,
+    "r2_unused_dimension_rows": 0,
+    "orig_tx_sha256": "10b16fba474ed8d32d68903f998f1c0e882a8b59e4b7e10ff8d8f11f9157a6f8",
+    "r1_tx_sha256": "10b16fba474ed8d32d68903f998f1c0e882a8b59e4b7e10ff8d8f11f9157a6f8",
+    "r2_tx_sha256": "10b16fba474ed8d32d68903f998f1c0e882a8b59e4b7e10ff8d8f11f9157a6f8",
+    "r3_tx_sha256": "10b16fba474ed8d32d68903f998f1c0e882a8b59e4b7e10ff8d8f11f9157a6f8",
+    "orig_merchants_sha256": "4f1626b5f7a51c005f7977dae3ce6ea9f67dc00354eceb27fadb03c5bb182bf3",
+    "r2_merchants_sha256": "4f1626b5f7a51c005f7977dae3ce6ea9f67dc00354eceb27fadb03c5bb182bf3"
+  }
+}

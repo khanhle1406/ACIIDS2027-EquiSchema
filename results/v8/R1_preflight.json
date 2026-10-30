@@ -1,0 +1,29 @@
+{
+  "status": "PASS_INSTANCE_ROUNDTRIP",
+  "rows": 26080,
+  "core_columns": [
+    "resultId",
+    "raceId",
+    "driverId",
+    "constructorId",
+    "date"
+  ],
+  "payload_columns": [
+    "resultId",
+    "date",
+    "number",
+    "grid",
+    "position",
+    "positionOrder",
+    "points",
+    "laps",
+    "milliseconds",
+    "fastestLap",
+    "rank",
+    "statusId"
+  ],
+  "original_hash": "43c70942676f4dcc71f0899ae6530e95a691e77908ccb44acb2683d0fc472532",
+  "inverse_hash": "43c70942676f4dcc71f0899ae6530e95a691e77908ccb44acb2683d0fc472532",
+  "temporal_metadata_preserved": true,
+  "scope": "raw pinned results table only; graph/sampler and full task admission remain separate checks"
+}

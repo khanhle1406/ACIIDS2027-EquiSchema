@@ -1,0 +1,6 @@
+{
+  "median_train": 12.0,
+  "test_nmae": 0.8106782801277213,
+  "train_std": 6.638883864730652,
+  "label": "diagnostic constant baseline; no hyperparameter search"
+}

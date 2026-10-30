@@ -1,0 +1,40 @@
+{
+  "protocol_version": 8,
+  "source_commit": "91c1f6420a03feb61c279aaeb194d7268435f278",
+  "dataset_revision": "d500f4d5eb581b6d768a1f5ac5a20db14d61c280",
+  "dataset": "rel-f1",
+  "task": "qualifying-position",
+  "views": [
+    "original",
+    "R1"
+  ],
+  "seeds": [
+    11,
+    23,
+    37,
+    51,
+    71
+  ],
+  "layers": 2,
+  "channels": 32,
+  "fanout": [
+    32,
+    16
+  ],
+  "batch_size": 512,
+  "epochs": 10,
+  "optimizer": "Adam",
+  "learning_rate": 0.005,
+  "evaluation_seed": 20261028,
+  "metric": "nmae",
+  "selection": "minimum validation NMAE",
+  "budget_usd_before_credits": 1.0,
+  "gpu": "T4",
+  "gpu_total_seconds_cap": 3000,
+  "max_cpu_cores": 2,
+  "max_memory_gib": 8,
+  "max_containers": 1,
+  "retries": 0,
+  "status": "registered_before_training",
+  "interpretation": "Report negative results; no task or rewrite search after test inspection."
+}

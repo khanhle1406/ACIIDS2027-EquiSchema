@@ -1,0 +1,173 @@
+{
+  "dataset": "rel-f1",
+  "task": "qualifying-position",
+  "hf_repo_id": "stanford-star/relbench-v1",
+  "hf_revision": "d500f4d5eb581b6d768a1f5ac5a20db14d61c280",
+  "vendor_commit": "91c1f6420a03feb61c279aaeb194d7268435f278",
+  "manifest_audit": {
+    "status": "PASS",
+    "task_manifest_sha256": "4c8be3afbaaa4bde9a98084cb1c11e390dda1c7e3219891cf2dc73381d3c424d",
+    "official_copy_sha256": "4c8be3afbaaa4bde9a98084cb1c11e390dda1c7e3219891cf2dc73381d3c424d"
+  },
+  "raw_files": {
+    "manifest.yaml": {
+      "rel_path": "manifest.yaml",
+      "size_bytes": 1196,
+      "sha256": "ddf427fcdb7b35b4363834b167e1d399615fdf41b9f589f54842f484c65a8f9d"
+    },
+    "db/circuits.parquet": {
+      "rel_path": "db/circuits.parquet",
+      "size_bytes": 10623,
+      "sha256": "29fb93df62628920c0a64651052d04c2728eeea7ef33c40d6f7aaccb6c7f0c27"
+    },
+    "db/constructor_results.parquet": {
+      "rel_path": "db/constructor_results.parquet",
+      "size_bytes": 113911,
+      "sha256": "9a494cfacd27945f2330a96090eca1b4edcc6ad297ae405582b6bb9db9c255da"
+    },
+    "db/constructor_standings.parquet": {
+      "rel_path": "db/constructor_standings.parquet",
+      "size_bytes": 143374,
+      "sha256": "db807b2330e75a077def66e12288931cdb1bdf3c07ed9b66d85a435148a2931f"
+    },
+    "db/constructors.parquet": {
+      "rel_path": "db/constructors.parquet",
+      "size_bytes": 8477,
+      "sha256": "7c142c0b72ec1addf452211aad9db7c6634b5485338d47544c563b9c5801ead5"
+    },
+    "db/drivers.parquet": {
+      "rel_path": "db/drivers.parquet",
+      "size_bytes": 38814,
+      "sha256": "d09e98acbb33993167a5b73144259a06c16a57ca2af66889ec3f06a34bd88475"
+    },
+    "db/qualifying.parquet": {
+      "rel_path": "db/qualifying.parquet",
+      "size_bytes": 101467,
+      "sha256": "8da1d1f670d139a96c26a633a38e872909e7733c4c3dbcc3821503f3e93680eb"
+    },
+    "db/races.parquet": {
+      "rel_path": "db/races.parquet",
+      "size_bytes": 24868,
+      "sha256": "65411ff4f44c9d0af59be72c5fc55fb02fcdfd7aa0106e58309a2928dc04b71b"
+    },
+    "db/results.parquet": {
+      "rel_path": "db/results.parquet",
+      "size_bytes": 438901,
+      "sha256": "33baa4732c7360500f9cefb9a0b1653ef216f33c54d95c7de4738a2199e23f6f"
+    },
+    "db/standings.parquet": {
+      "rel_path": "db/standings.parquet",
+      "size_bytes": 344321,
+      "sha256": "18b17906cdd403def543d05a4947ef432a8c0206040a6e23bc6727ecd3ef2cdd"
+    },
+    "tasks/qualifying-position/manifest.yaml": {
+      "rel_path": "tasks/qualifying-position/manifest.yaml",
+      "size_bytes": 203,
+      "sha256": "4c8be3afbaaa4bde9a98084cb1c11e390dda1c7e3219891cf2dc73381d3c424d"
+    },
+    "tasks/qualifying-position/train.parquet": {
+      "rel_path": "tasks/qualifying-position/train.parquet",
+      "size_bytes": 17177,
+      "sha256": "630ac80c750a26a059d2a2481553bc709e74146eb358993fff993887f17a2126"
+    },
+    "tasks/qualifying-position/val.parquet": {
+      "rel_path": "tasks/qualifying-position/val.parquet",
+      "size_bytes": 14472,
+      "sha256": "ab9ed3680c199f03bcf12b12dc26275689f40e53ca5e0a0736ee5121dce754d2"
+    },
+    "tasks/qualifying-position/test.parquet": {
+      "rel_path": "tasks/qualifying-position/test.parquet",
+      "size_bytes": 40829,
+      "sha256": "98d80713f2867cc9dc9c19533bc41191d63977466b50347eefd5812d80f360ed"
+    }
+  },
+  "materialized_splits": {
+    "train": {
+      "split_name": "train",
+      "num_rows": 2228,
+      "columns": [
+        "date",
+        "qualifyId",
+        "position"
+      ],
+      "time_min": "1994-03-26 00:00:00",
+      "time_max": "2004-10-23 00:00:00",
+      "is_masked": false,
+      "sha256": "1778dd4e755a8a17bab3f4c75b8a02d6c888b123f5b36503bf296f52b458d7b1"
+    },
+    "val": {
+      "split_name": "val",
+      "num_rows": 1854,
+      "columns": [
+        "date",
+        "qualifyId",
+        "position"
+      ],
+      "time_min": "2005-03-05 14:00:00",
+      "time_max": "2009-10-31 11:00:00",
+      "is_masked": false,
+      "sha256": "10892f7dee0880b0c0d9faeeb7d96c0d4fd09a92f5129afa39fcac03e6536b2e"
+    },
+    "test": {
+      "split_name": "test",
+      "num_rows": 5733,
+      "columns": [
+        "date",
+        "qualifyId",
+        "position"
+      ],
+      "time_min": "2010-03-13 12:00:00",
+      "time_max": "2023-07-29 13:00:00",
+      "is_masked": false,
+      "sha256": "758c65f28fff6be94727d87f3e771f5294faab9b008737f1ad6c60571b673fbf"
+    },
+    "test_masked": {
+      "split_name": "test_masked",
+      "num_rows": 5733,
+      "columns": [
+        "date",
+        "qualifyId"
+      ],
+      "time_min": "2010-03-13 12:00:00",
+      "time_max": "2023-07-29 13:00:00",
+      "is_masked": true,
+      "sha256": "3d859400e07842f0967215b4aece22f6f317ecbfcd7b246301c3df4941a68020"
+    }
+  },
+  "metadata": {
+    "dataset_name": "rel-f1",
+    "task_name": "qualifying-position",
+    "total_qualifying_rows": 9815,
+    "split_counts": {
+      "train": 2228,
+      "val": 1854,
+      "test": 5733,
+      "test_masked": 5733
+    },
+    "target_std_train": 6.638883864730652,
+    "hidden_columns": [
+      [
+        "qualifying",
+        "position"
+      ]
+    ],
+    "temporal_windows": {
+      "val_timestamp": "2005-01-01 00:00:00",
+      "test_timestamp": "2010-01-01 00:00:00"
+    },
+    "entity_key_mapping": {
+      "entity_table": "qualifying",
+      "primary_key": "qualifyId",
+      "is_contiguous_0_based": true,
+      "min_id": 0,
+      "max_id": 9814,
+      "total_entities": 9815,
+      "identity_mapped": true
+    },
+    "regeneration_cross_check": {
+      "train_exact_match": true,
+      "val_exact_match": true,
+      "test_multiset_match": true
+    }
+  }
+}

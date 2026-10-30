@@ -1,0 +1,12 @@
+{
+  "roundtrip_hash": "43c70942676f4dcc71f0899ae6530e95a691e77908ccb44acb2683d0fc472532",
+  "original_hash": "43c70942676f4dcc71f0899ae6530e95a691e77908ccb44acb2683d0fc472532",
+  "evaluation_hash": "ea2c3d087aa182948c30a6c5da645058d87998ce9ea793afbfc4d7e38c6bf8d3",
+  "hidden_columns": [
+    [
+      "qualifying",
+      "position"
+    ]
+  ],
+  "status": "PASS_INSTANCE_AND_TASK_IDENTITY"
+}

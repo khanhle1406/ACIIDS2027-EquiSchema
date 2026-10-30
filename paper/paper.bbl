@@ -1,0 +1,99 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\doi}[1]{https://doi.org/#1}
+
+\bibitem{chen2025relgnn}
+Chen, T., Kanatsoulis, C., Leskovec, J.: {RelGNN}: Composite message passing
+  for relational deep learning. In: Proceedings of the 42nd International
+  Conference on Machine Learning. vol.~267, pp. 8296--8312. PMLR (2025)
+
+\bibitem{choi2025rdb2g}
+Choi, D., Kim, S., Kim, J., et~al.: {RDB2G-Bench}: A comprehensive benchmark
+  for automatic graph modeling of relational databases. In: Advances in Neural
+  Information Processing Systems (2025). \doi{10.52202/085713-4078}, datasets
+  and Benchmarks Track
+
+\bibitem{dubey2026synthetic}
+Dubey, S., Bouadi, M., Bouarour, N., et~al.: When does synthetic relational
+  data teach models to use relations? tracing predictive structure from
+  pretraining data to model behavior. arXiv preprint arXiv:2610.03057  (2026)
+
+\bibitem{dwivedi2026relgt}
+Dwivedi, V.P., Jaladi, S., Shen, Y., et~al.: Relational graph transformer. In:
+  International Conference on Learning Representations (2026)
+
+\bibitem{hamilton2017graphsage}
+Hamilton, W.L., Ying, R., Leskovec, J.: Inductive representation learning on
+  large graphs. In: Advances in Neural Information Processing Systems (2017)
+
+\bibitem{hayler2026relarena}
+Hayler, A., Floge, K., Arazi, A., Ranjan, R., Leskovec, J., et~al.: Advancing
+  open and reproducible relational learning: Relarena-alpha, tabpfn-rel and
+  rpi. arXiv preprint arXiv:2608.16319  (2026)
+
+\bibitem{hull1986capacity}
+Hull, R.: Relative information capacity of simple relational database schemata.
+  SIAM Journal on Computing  \textbf{15}(3),  856--886 (1986).
+  \doi{10.1137/0215061}
+
+\bibitem{kanchinadam2026schemas}
+Kanchinadam, N., Menachery, A., Deshpande, A.: Same data, different schemas:
+  Robustness of llm-based text-to-sql. In: Ninth International Workshop on
+  Exploiting Artificial Intelligence Techniques for Data Management (2026).
+  \doi{10.1145/3814940.3815329}
+
+\bibitem{ke2017lightgbm}
+Ke, G., Meng, Q., Finley, T., Wang, T., Chen, W., Ma, W., Ye, Q., Liu, T.Y.:
+  {LightGBM}: A highly efficient gradient boosting decision tree. In: Advances
+  in Neural Information Processing Systems (2017)
+
+\bibitem{kolesnichenko2026rtgl}
+Kolesnichenko, O., Pele{\v{s}}ka, J., {\v{S}}{\'i}r, G.: Relational task
+  generation language: A declarative specification framework for relational
+  deep learning. arXiv preprint arXiv:2609.01292  (2026)
+
+\bibitem{picado2017schema}
+Picado, J., Termehchy, A., Fern, A., Ataei, P.: Schema independent relational
+  learning. In: Proceedings of the 2017 ACM International Conference on
+  Management of Data. pp. 205--218 (2017). \doi{10.1145/3035918.3035923}
+
+\bibitem{ranjan2026rt}
+Ranjan, R., Hudovernik, V., Znidar, M., et~al.: Relational transformer: Toward
+  zero-shot foundation models for relational data. In: International Conference
+  on Learning Representations (2026)
+
+\bibitem{ranjan2026rtj}
+Ranjan, R., Kothapalli, V., Agarwal, H., et~al.: {RT-J}: Large-scale
+  pretraining of relational transformers for context-efficient predictions. In:
+  Advances in Neural Information Processing Systems (2026)
+
+\bibitem{robinson2024relbench}
+Robinson, J., Ranjan, R., Hu, W., et~al.: {RelBench}: A benchmark for deep
+  learning on relational databases. In: Advances in Neural Information
+  Processing Systems (2024)
+
+\bibitem{rtcode2026}
+{Stanford STAR Project}: {Relational Transformer} source code: {Rust}
+  preprocessing path (2026), {GitHub} repository
+  stanford-star/relational-transformer, commit
+  def35f92bf890741c4be41c4c315886365ee5ffb; accessed 26 October 2026
+
+\bibitem{relbenchdata2026}
+{Stanford STAR Project}: {RelBench} public data and task manifests for {rel-f1}
+  and {rel-salt} (2026), {Hugging Face} datasets; {rel-f1} manifest revision
+  d500f4d5eb581b6d768a1f5ac5a20db14d61c280 and {rel-salt} revision
+  e90eab0ab2176a947d315d4cb4115a06eccf62fe; accessed 26 October 2026
+
+\bibitem{relbenchcode2026}
+{Stanford STAR Project}: {RelBench} source code: Heterogeneous graph
+  construction (2026), {GitHub} repository stanford-star/relbench, commit
+  91c1f6420a03feb61c279aaeb194d7268435f278; accessed 26 October 2026
+
+\bibitem{xie2011metamorphic}
+Xie, X., Ho, J.W.K., Murphy, C., Kaiser, G., Xu, B., Chen, T.Y.: Testing and
+  validating machine learning classifiers by metamorphic testing. Journal of
+  Systems and Software  \textbf{84}(4),  544--558 (2011).
+  \doi{10.1016/j.jss.2010.11.920}
+
+\end{thebibliography}

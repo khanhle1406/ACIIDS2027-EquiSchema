@@ -1,0 +1,13 @@
+domain,model,encoding,swap_concordance,swap_response,serialization_disagreement
+Synth-A-uniform,LightGBM,anonymous-slot,0.9393333333333332,0.6252556095766568,0.7737777777777778
+Synth-A-uniform,LightGBM,collapsed,0.0,0.0,0.0
+Synth-A-uniform,LightGBM,role-keyed,0.9393333333333332,0.6252556095766568,0.0
+Synth-A-uniform,TypedMPNN,anonymous-slot,0.9835555555555555,0.6924925379031224,0.772
+Synth-A-uniform,TypedMPNN,collapsed,0.0,0.0,0.0
+Synth-A-uniform,TypedMPNN,role-keyed,0.9835555555555555,0.6924925379031224,0.0
+Synth-B-heavy-tail,LightGBM,anonymous-slot,0.9444444444444444,0.5224437489631893,0.6837777777777777
+Synth-B-heavy-tail,LightGBM,collapsed,0.0,0.0,0.0
+Synth-B-heavy-tail,LightGBM,role-keyed,0.9444444444444444,0.5224437489631893,0.0
+Synth-B-heavy-tail,TypedMPNN,anonymous-slot,0.9724444444444444,0.581189550172947,0.71
+Synth-B-heavy-tail,TypedMPNN,collapsed,0.0,0.0,0.0
+Synth-B-heavy-tail,TypedMPNN,role-keyed,0.9724444444444444,0.581189550172947,0.0

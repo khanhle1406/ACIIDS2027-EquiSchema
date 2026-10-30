@@ -1,0 +1,50 @@
+{
+  "task_contract_audits": [
+    {
+      "path": "artifact/external_manifests/rel-f1_qualifying-position_official.yaml",
+      "sha256": "4c8be3afbaaa4bde9a98084cb1c11e390dda1c7e3219891cf2dc73381d3c424d",
+      "name": "qualifying-position",
+      "kind": "autocomplete",
+      "task_type": "regression",
+      "findings": [],
+      "contract_type": "row-mask",
+      "status": "PASS_STATIC_PREFLIGHT",
+      "notes": [
+        "No future-pointing task SQL is present; external runs must still hash evaluation keys/labels and hidden-column masks."
+      ]
+    },
+    {
+      "path": "artifact/external_manifests/rel-f1_driver-dnf_official.yaml",
+      "sha256": "b0f46c1e4bf9d0450a296948f3add66786cedfa0bfd1016227823d67af8e6ef8",
+      "name": "driver-dnf",
+      "kind": "forecast",
+      "task_type": "binary_classification",
+      "findings": [
+        {
+          "severity": "risk",
+          "code": "UNBOUNDED_HISTORICAL_ELIGIBILITY",
+          "subquery_index": 0,
+          "detail": "Historical eligibility has a lookback lower bound but no explicit date <= anchor-time upper bound. Future activity can therefore affect entity eligibility."
+        }
+      ],
+      "contract_type": "forecast",
+      "status": "REVIEW",
+      "notes": [
+        "PASS_STATIC_PREFLIGHT is only a syntax-level preflight; full EquiSchema admission also requires evaluation-key/label hashes, split/cutoff checks, and the rewrite certificate."
+      ]
+    },
+    {
+      "path": "artifact/external_manifests/rel-f1_driver-dnf_causal_variant.yaml",
+      "sha256": "5c3d0368d40e92728c833cbdccedec7a00039167797b300949bcd7bea599d59b",
+      "name": "driver-dnf-causal-eligibility-variant",
+      "kind": "forecast",
+      "task_type": "binary_classification",
+      "findings": [],
+      "contract_type": "forecast",
+      "status": "PASS_STATIC_PREFLIGHT",
+      "notes": [
+        "PASS_STATIC_PREFLIGHT is only a syntax-level preflight; full EquiSchema admission also requires evaluation-key/label hashes, split/cutoff checks, and the rewrite certificate."
+      ]
+    }
+  ]
+}

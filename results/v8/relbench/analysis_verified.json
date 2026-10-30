@@ -1,0 +1,18 @@
+{
+  "status": "COMPLETE_PAIRED_MATRIX",
+  "seed_count": 5,
+  "test_rows": 5733,
+  "drift": {
+    "delta_seed_ind": 0.07446605990641525,
+    "delta_view_ind": 0.0901723108259317,
+    "esd_ind": 0.01570625091951643,
+    "esd_ci_lo": -0.07209546577565262,
+    "esd_ci_hi": 0.12364409876901081,
+    "delta_view_paired": 0.1071486456745053
+  },
+  "mean_nmae": {
+    "R1": 0.8863796781072656,
+    "original": 0.9000437042138542
+  },
+  "worst_view_nmae": 0.9000437042138542
+}

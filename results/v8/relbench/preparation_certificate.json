@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "dataset_source": "results/v8/preparation/raw/rel-f1",
+  "dataset": "rel-f1",
+  "task": "qualifying-position",
+  "revision": "d500f4d5eb581b6d768a1f5ac5a20db14d61c280",
+  "train_rows": 2228,
+  "val_rows": 1854,
+  "test_rows": 5733,
+  "train_std": 6.638883864730652,
+  "masks": {
+    "hidden_columns": [
+      [
+        "qualifying",
+        "position"
+      ]
+    ],
+    "test_masked": true
+  },
+  "r1_certificate": {
+    "key": "resultId",
+    "foreign_keys": [
+      "raceId",
+      "driverId",
+      "constructorId"
+    ],
+    "core_columns": [
+      "resultId",
+      "raceId",
+      "driverId",
+      "constructorId",
+      "date"
+    ],
+    "payload_columns": [
+      "resultId",
+      "date",
+      "number",
+      "grid",
+      "position",
+      "positionOrder",
+      "points",
+      "laps",
+      "milliseconds",
+      "fastestLap",
+      "rank",
+      "statusId"
+    ],
+    "original_hash": "43c70942676f4dcc71f0899ae6530e95a691e77908ccb44acb2683d0fc472532",
+    "core_hash": "3a4d9fa3408411a97467a3ccad2cf6d31647d915693b071745dc823277648eb2",
+    "payload_hash": "f031a1e8f38199d6d2f024cd90098bf4f60603c3df8da4b553ebdd34fbfc1fe3",
+    "restored_hash": "43c70942676f4dcc71f0899ae6530e95a691e77908ccb44acb2683d0fc472532",
+    "roundtrip_exact_equality": true
+  },
+  "temporal_cutoff": {
+    "qualifying_strictly_before_results": true,
+    "future_results_grid_accessible": false
+  }
+}

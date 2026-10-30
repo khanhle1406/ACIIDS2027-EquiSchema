@@ -1,0 +1,44 @@
+{
+  "status": "COMPLETE",
+  "drift": {
+    "delta_seed_ind": 0.07446605992531433,
+    "delta_view_ind": 0.09017231087408191,
+    "esd_ind": 0.015706250948767597,
+    "esd_ci_lo": -0.07209546604319861,
+    "esd_ci_hi": 0.1236440992427637,
+    "delta_view_paired": 0.10714864574102946
+  },
+  "canonical_cpu": [
+    {
+      "seed": 11,
+      "mean_absolute_difference": 7.076453130139271e-07,
+      "max_absolute_difference": 6.103515625e-05
+    },
+    {
+      "seed": 23,
+      "mean_absolute_difference": 1.1206878980374313e-06,
+      "max_absolute_difference": 0.0001735687255859375
+    },
+    {
+      "seed": 37,
+      "mean_absolute_difference": 5.290705189509026e-07,
+      "max_absolute_difference": 3.719329833984375e-05
+    },
+    {
+      "seed": 51,
+      "mean_absolute_difference": 7.39168285690539e-07,
+      "max_absolute_difference": 6.0558319091796875e-05
+    },
+    {
+      "seed": 71,
+      "mean_absolute_difference": 5.614252245322859e-07,
+      "max_absolute_difference": 4.863739013671875e-05
+    }
+  ],
+  "mean_jaccard": 0.7005948942490389,
+  "train_std": 6.638883864730652,
+  "seconds": 166.033995248,
+  "peak_ram_mb": 3955.9375,
+  "peak_vram_mb": 1058.96826171875,
+  "context_scope": "per-target sampled base-table fields plus row existence; auxiliary R1 link key excluded; copied timestamps deduplicated"
+}
